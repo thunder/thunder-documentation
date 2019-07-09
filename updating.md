@@ -11,9 +11,9 @@ After you have updated your code with `composer` command, you can go to your sit
 
 **Command line**
 
-To update database in the command line, you need to have [drush](http://www.drush.org/en/master/) installed.
+To update the database in the command line, you need to have [drush](http://docs.drush.org/en/master/install) installed.
 
 You can run `drush` command in the `docroot` folder of your site to update the database of your site like this:
-```terminal
+```
 $ drush updb
 ```
