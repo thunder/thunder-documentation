@@ -4,6 +4,10 @@ These are the instructions to manually update to Thunder 3. The most
 significant change is the migration to media in core. But we also made
 some significant changes to our composer.json.
 
+### Prerequisites
+You have to make sure, that your Thunder 2 project and all it's dependecies,
+are fully updated to the most current versions.
+
 ### General composer.json adjustments
 First, we moved the composer package under the thunder namespace. So you
 need to replace
