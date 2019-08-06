@@ -131,4 +131,6 @@ Steps to migrate:
 * ```
   drush pm:uninstall video_embed_field
   ```
-* Remove the video_embed_field module and patch from your composer.json
+* ```
+  composer remove drupal/video_embed_field
+  ```
