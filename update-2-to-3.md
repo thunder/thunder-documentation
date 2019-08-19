@@ -8,33 +8,23 @@ some changes to our composer.json.
 You have to make sure, that your Thunder 2 project and all it's dependecies,
 are fully updated to the most current versions. Run the following command in your docroot:
 
-'''
+```
 drush ev "print drupal_get_installed_schema_version('thunder') . PHP_EOL;"
-'''
+```
+This should print the number 8138 or greater. If that is not the case, update your project.
 
-This should print the number 8138 or greater. If that is not the case, update your project:
-
-'''
+```
 cd ..
 composer update
-'''
-
-This should update to Thunder 8.2.47 or greater
+```
+This should update to Thunder 8.2.47 or greater.
 
 Now run database updates:
-
-'''
+```
 cd docroot
 drush updb
-'''
-
-You should see least the thunder 8138 schema update. If not, double check, that the correct version of Thunder is installed, and that drush updb did noch throw any errors. Check the schema version again:
-
-'''
-drush ev "print drupal_get_installed_schema_version('thunder') . PHP_EOL;"
-'''
-
-You can only continue if this prints 8138 or greater.
+```
+You should at least see the thunder 8138 schema update. If not, double check that the correct version of Thunder is installed, and that `drush updb` did not throw any errors. 
 
 ### General composer.json adjustments
 First, we moved the composer package under the thunder namespace. So you
@@ -166,3 +156,4 @@ Steps to migrate:
 * ```
   composer remove drupal/video_embed_field
   ```
+
