@@ -8,20 +8,8 @@ some significant changes to our composer.json.
 You have to make sure, that your Thunder 2 project and all it's dependecies,
 are fully updated to the most current versions.
 
-### General composer.json adjustments
-First, we moved the composer package under the thunder namespace. So you
-need to replace
-```
-"burdamagazinorg/thunder": "~8.2",
-```
-by
-```
-"thunder/thunder-distribution": "~3.3",
-```
-in the require section of your composer.json.
-
-
-We also switched from bower-asset to npm-asset for our frontend-libraries.
+### Composer adjustments
+We switched from bower-asset to npm-asset for our frontend-libraries.
 In order to get the libraries downloaded to the correct location, please
 replace
 ```
@@ -33,14 +21,25 @@ by
 ```
 in the composer.json of your project and add "type:npm-asset" to the "docroot/libraries/{$name}" section in installer-paths.
 
-You have to update composer now
+
+We moved the composer package under the thunder namespace, so remove the old package and a the new one.
+
+```
+composer remove burdamagazinorg/thunder
+```
+
+```
+composer require "thunder/thunder-distribution:~3.3" --no-update
+```
+
+You have to update composer now.
 
 ```
 composer update
 ```
 
-Additionally, we removed some modules from our codebase. If you are using one of
-following modules, please require them manually for your project.
+We removed some modules from our codebase. In case you are using one of
+below mentioned modules please require them manually for your project.
 
 ```
 composer require drupal/views_load_more --no-update
@@ -52,7 +51,7 @@ composer require burdamagazinorg/infinite_module:~1.0 --no-update
 composer require burdamagazinorg/infinite_theme:~1.0 --no-update
 ```
 ### Updating fb_instant_articles
-If you are using the fb_instant_articles, please note that the RSS feed url will change
+In case you are using the fb_instant_articles, please note that the RSS feed url will change
 and therefore needs to be updated in the facebook account.
 
 When updating while fb_instant_articles is enabled, there will be an error message like `The "fiafields" plugin does not exist. Valid plugin IDs for Drupal\views\Plugin\ViewsPluginManager are: ...`
@@ -96,7 +95,7 @@ composer remove drupal/media_entity drupal/media_entity_image
 
 ### Removing support for some entity browser configurations
 We removed the compatibility layer for the media_browser and
-gallery_browser. If you still relying on these, please move to the image
+gallery_browser. In case you still relying on these, please move to the image
 browser.
 
 ## Additional not required tasks:
