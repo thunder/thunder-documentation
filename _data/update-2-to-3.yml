@@ -1,0 +1,18 @@
+- title: Prerequisites
+  include: update23/prerequisites.md
+  id: update23-prerequisites
+- title: Composer adjustments
+  include: update23/composer-adjustments.md
+  id: update23-composer-adjustments
+- title: Update Facebook instant articles integration
+  include: update23/updating-instant-articles-integration.md
+  id: update23-updating-instant-articles-module
+- title: Pre-requirements for media update
+  include: update23/requirements-media-update.md
+  id: update23-requirements-media-update
+- title: Execute media update
+  include: update23/execute-media-update.md
+  id: update23-execute-media-update
+- title: Cleanup codebase
+  include: update23/cleanup-codebase.md
+  id: update23-cleanup-codebase

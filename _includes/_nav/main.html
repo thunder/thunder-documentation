@@ -1,0 +1,32 @@
+<header class="navbar navbar-static-top docs-nav" id="top" role="banner">
+    <div class="container">
+        <div class="navbar-header">
+            <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="{{ '/' | relative_url }}" class="navbar-brand">Thunder</a>
+        </div>
+        <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+            <ul class="nav navbar-nav">
+                <li{% if page.slug == "modules" %} class="active"{% endif %}>
+                <a href="{{ '/modules' | relative_url }}">Module List</a>
+                </li>
+                <li{% if page.slug == "install" %} class="active"{% endif %}>
+                <a href="{{ '/quick-install' | relative_url }}">Installation Guide</a>
+                </li>
+                <li{% if page.slug == "extending" %} class="active"{% endif %}>
+                <a href="{{ '/extending' | relative_url }}">Extending Thunder</a>
+                </li>
+                <li{% if page.slug == "updating" %} class="active"{% endif %}>
+                <a href="{{ '/updating' | relative_url }}">Updating Thunder</a>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="https://github.com/thunder/thunder-distribution">View on GitHub</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>

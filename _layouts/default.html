@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <!-- Meta, title, CSS, favicons, etc. -->
+    {% include _layout/header.html %}
+</head>
+<body>
+  <a class="sr-only  sr-only-focusable" href="#content">Skip to main content</a>
+
+  <!-- Docs master nav -->
+  {% include _nav/main.html %}
+
+  <section class="page-header" id="content">
+    <div class="container">
+      {% if page.slug == 'index' %}
+        <img src="assets/logos/Thunder.svg" alt="Thunder Logo" width="400" />
+      {% else %}
+        <h1 class="project-name">{{ page.title | default: site.github.repository_name }}</h1>
+      {% endif %}
+
+      <p class="project-tagline">{{ page.description | default: site.github.project_tagline }}</p>
+
+      {% if site.show_downloads %}
+        <a href="{{ site.github.zip_url }}" class="btn btn-primary">Download .zip</a>
+        <a href="{{ site.github.tar_url }}" class="btn btn-primary">Download .tar.gz</a>
+      {% endif %}
+    </div>
+  </section>
+
+  <section class="main-content container">
+    <div class="col-md-9" role="main">
+      {{ content }}
+    </div>
+    <div class="col-md-3">
+      <div class="docs-sidebar hidden-print hidden-xs hidden-sm" role="complementary">
+        <ul class="nav docs-sidenav">
+          <!-- Just include navigation based on slug, an include and site.data -->
+          {% if page.slug and site.data[page.slug] %}
+            {% assign sidebarItems=site.data[page.slug] %}
+            {% include _nav/sidebar.html items=sidebarItems %}
+          {% endif %}
+        </ul>
+        <a class="back-to-top" href="#top">
+          Back to top
+        </a>
+      </div>
+    </div>
+  </section>
+
+  {% include _layout/footer.html %}
+</body>
+</html>
