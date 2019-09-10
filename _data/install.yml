@@ -1,0 +1,12 @@
+- title: System requirements
+  include: install/system-requirements.md
+  id: install-system-requirents
+- title: Project setup
+  include: install/project-setup.md
+  id: install-project-setup
+- title: Run locally
+  include: install/run-locally.md
+  id: install-run-locally
+- title: Beyond quick install
+  include: install/beyond-quick-install.md
+  id: install-beyond-quick-install

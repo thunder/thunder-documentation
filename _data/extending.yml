@@ -1,0 +1,15 @@
+- title: Find extensions
+  include: extend/find-extension.md
+  id: extend-find-extension
+- title: Add an extension
+  include: extend/add-extension.md
+  id: extend-add-extension
+- title: Install an extension
+  include: extend/install-extension.md
+  id: extend-install-extension
+- title: Uninstall an extension
+  include: extend/uninstall-extension.md
+  id: extend-uninstall-extension
+- title: Remove an extension
+  include: extend/remove-extension.md
+  id: extend-remove-extension
