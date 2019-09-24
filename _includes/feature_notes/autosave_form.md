@@ -2,7 +2,7 @@ The "Autosave Form" module provides an autosave feature for all forms. The autos
 
 In Thunder, it is active for node articles and basic pages and all media types.
 
-## Steps to present the module
+## Feature walkthrough
 
 For demonstration purpose, it's recommended to decrease the interval to trigger the autosave on admin/config/content/autosave_form.
 
