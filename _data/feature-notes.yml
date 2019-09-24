@@ -1,0 +1,7 @@
+- title: Release 3.2
+  include: feature_notes/new-release.md
+  id: feature-notes_release-32
+  subs:
+    - title: Autosave Form
+      include: feature_notes/autosave_form.md
+      id: feature-notes_autosave-form
