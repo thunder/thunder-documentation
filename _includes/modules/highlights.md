@@ -7,6 +7,9 @@
 **Entity Browser**: This module provides a generic entity browser/picker/selector. In Thunder, it serves as media library which gives you an overview of all your media entities, such as pictures and videos. You can filter and search for them, edit them, and add new media.<br />
 [https://www.drupal.org/project/entity_browser](https://www.drupal.org/project/entity_browser)
 
+**Autosave Form**: The “Autosave Form” module provides an autosave feature for all forms. The autosave submits will be triggered every 60 seconds and store the changes from the currently logged-in user in the database.
+[https://www.drupal.org/project/autosave_form](https://www.drupal.org/project/autosave_form)
+
 **Thunder Updater**: This is a combination of the modules Checklist API and Configuration Update Manager. Thunder checks if installed configurations have been changed – if not, they can be updated. Otherwise you will get a message telling you that there’s an available update and what to do if you wish to have it.<br />
 [https://www.drupal.org/project/checklist](https://www.drupal.org/project/checklist)<br />
 [https://www.drupal.org/project/update_helper](https://www.drupal.org/project/update_helper)
