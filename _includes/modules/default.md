@@ -55,7 +55,16 @@
 **Media expire**: This module enables you to unpublish your media entities automatically by setting an expire date.<br />
 [https://www.drupal.org/project/media_expire](https://www.drupal.org/project/media_expire)
 
-**Paragraph Split Text**: This module enables editors to add text to one paragraph and split it afterward to add any other paragraph in between. This functionality was contributed by the Austrian publisher kurier.at. Note that this feature is already part of Thunder, but no contrib module, yet.
+**Paragraphs Features**: This module adds additional features to the paragraphs module.
+1. Provides additional buttons between paragraphs to allow easier adding of a new paragraph to as specific position.
+2. Split Text feature for paragraphs is available for text fields of a paragraph where CKEditor is used. Splits a paragraph into two.
+3. When there is only one option in the actions drop-down, this will be display that as a single button instead of a drop down with only one value.
+4. Provide a delete confirmation form.
+
+[https://www.drupal.org/project/paragraphs_features](https://www.drupal.org/project/paragraphs_features)
+
+**Password Policy**: Provides a way to enforce restrictions on user passwords by defining password policies.
+[https://www.drupal.org/project/password_policy](https://www.drupal.org/project/password_policy)
 
 **Pathauto**: The Pathauto module automatically generates URL/path aliases for various kinds of content (nodes, taxonomy terms, users) without requiring the user to manually specify the path alias. The aliases are based upon a "pattern" system that uses tokens which the administrator can change.<br />
 [https://www.drupal.org/project/pathauto](https://www.drupal.org/project/pathauto)
@@ -69,6 +78,9 @@
 **Scheduler**: Scheduler gives content editors the ability to schedule nodes to be published and unpublished at specified dates and times in the future. Dates can be entered either as plain text or with calendar popups.<br />
 [https://www.drupal.org/project/scheduler](https://www.drupal.org/project/scheduler)
 
+**Select2**: Integrates Drupal autocomplete and select fields with the [Select2](https://select2.org/) jQuery library. Provides advanced autocomplete functionality for select fields and entity reference fields.
+[https://www.drupal.org/project/select2](https://www.drupal.org/project/select2)
+
 **Shariff**: This module implements the Shariff social media buttons library by heise online. Shariff enables website users to share their favorite content without compromising their privacy.<br />
 [https://www.drupal.org/project/shariff](https://www.drupal.org/project/shariff)
 
@@ -80,6 +92,3 @@
 
 **Token**: Provides additional tokens not supported by core (most notably fields), as well as a UI for browsing tokens.<br />
 [https://www.drupal.org/project/token](https://www.drupal.org/project/token)
-
-**Video Embed Field**: Video Embed field creates a simple field type that allows you to embed videos from YouTube and Vimeo and show their thumbnail previews simply by entering the video's URL.<br />
-[https://www.drupal.org/project/video_embed_field](https://www.drupal.org/project/video_embed_field)
