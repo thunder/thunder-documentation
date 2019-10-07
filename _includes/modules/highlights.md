@@ -1,6 +1,8 @@
 **Thunder Admin Theme**: Admin theme created for Thunder with bigger UX improvements according to the findings of recent user tests and a survey conducted with editors currently working with Thunder.<br />
 [https://www.drupal.org/project/thunder_admin](https://www.drupal.org/project/thunder_admin)
 
+**Content Moderation**: Content Moderation enables you to have an editorial workflow. Editors can have different permissions for creating, editing and publishing articles. It also allows you to have a published version of an article, and have a separate working copy that is undergoing review before it is published.
+
 **Paragraphs**: Instead of putting all their content in one WYSIWYG body field including images and videos, end-users can now choose on-the-fly between pre-defined Paragraph Types independent from one another. Paragraph Types can be anything you want from a simple text block or image to a complex and configurable slideshow. This allows editors to structure an article into sub-elements, which can easily be created, edited, and reorganized.<br />
 [https://www.drupal.org/project/paragraphs](https://www.drupal.org/project/paragraphs)
 
