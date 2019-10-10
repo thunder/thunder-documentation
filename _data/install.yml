@@ -1,12 +1,45 @@
-- title: System requirements
-  include: install/system-requirements.md
-  id: install-system-requirents
-- title: Project setup
-  include: install/project-setup.md
-  id: install-project-setup
-- title: Run locally
-  include: install/run-locally.md
-  id: install-run-locally
-- title: Beyond quick install
-  include: install/beyond-quick-install.md
-  id: install-beyond-quick-install
+- title: Install
+  id: install-install
+  include: install/install.md
+  subs:
+    - title: System requirements
+      include: install/install-requirements.md
+      id: install-system-requirents
+    - title: Project setup
+      include: install/install-setup.md
+      id: install-project-setup
+    - title: Run locally
+      include: install/install-run-locally.md
+      id: install-run-locally
+    - title: Beyond quick install
+      include: install/install-more.md
+      id: install-beyond-quick-install
+- title: Update
+  id: install-update
+  include: install/update.md
+  subs:
+    - title: UI
+      include: install/update-ui.md
+      id: install-update-ui
+    - title: Command line
+      include: install/update-cli.md
+      id: install-update-cli
+- title: Extend
+  id: install-extend
+  include: install/extend.md
+  subs:
+    - title: Find extensions
+      include: install/extend-find.md
+      id: install-extend-find
+    - title: Add extension
+      include: install/extend-add.md
+      id: install-extend-add
+    - title: Install extension
+      include: install/extend-install.md
+      id: install-extend-install
+    - title: Uninstall extension
+      include: install/extend-uninstall.md
+      id: install-extend-uninstall
+    - title: Remove extension
+      include: install/extend-remove.md
+      id: install-extend-remove
