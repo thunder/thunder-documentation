@@ -1,0 +1,19 @@
+- title: Development
+  include: contribute/development.md
+  id: contribute-development
+  subs:
+    - title: Coding styles
+      include: contribute/development-coding-styles.md
+      id: contribute-coding-styles
+    - title: Code style checker
+      include: contribute/development-coding-styles-checker.md
+      id: contribute-coding-styles-checker
+- title: Documentation
+  include: contribute/documentation.md
+  id: contribute-documentation
+- title: Bug reporting
+  include: contribute/bug-reporting.md
+  id: contribute-bug-reporting
+- title: Feature requests
+  include: contribute/feature-requests.md
+  id: contribute-feature-requests
