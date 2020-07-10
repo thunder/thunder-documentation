@@ -1,6 +1,9 @@
 - title: Prerequisites
   include: update36/prerequisites.md
   id: update36-prerequisites
+- title: Drupal 9 compatibility
+  include: update36/drupal9-compatibility.md
+  id: update36-drupal9-compatibility
 - title: Composer adjustments
   include: update36/composer-adjustments.md
   id: update36-composer-adjustments
