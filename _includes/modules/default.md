@@ -4,11 +4,17 @@
 **Admin Toolbar**: Admin Toolbar transforms the default Drupal Toolbar into a drop-down menu, providing a fast access to all administration pages.<br />
 [https://www.drupal.org/project/admin_toolbar](https://www.drupal.org/project/admin_toolbar)
 
+**Autofill**: The Autofill module makes it possible to autofill the values from one textfield to another while typing. Once your field input was customized the autofill functionality will be detached.<br />
+[https://www.drupal.org/project/autofill](https://www.drupal.org/project/autofill)
+
 **Blazy**: Lazy load and multi-serve images to save bandwidth and server requests. The user will have faster load times and save data usage if they don't browse the whole page. A friend of mobile devices.<br />
 [https://www.drupal.org/project/blazy](https://www.drupal.org/project/blazy)
 
 **Content Lock**: When a user is editing a node, any other user that attempts to edit the same node will be blocked from doing so, and notified that the content is already being edited.<br />
 [https://www.drupal.org/project/content_lock](https://www.drupal.org/project/content_lock)
+
+**Diff**: This module adds a tab that shows all revisions like standard Drupal but it also allows pretty viewing of all added/changed/deleted words between revisions.<br />
+[https://www.drupal.org/project/diff](https://www.drupal.org/project/diff)
 
 **Dropzonejs**: Open source library that provides drag’n’drop file uploads with image previews.<br />
 [https://www.drupal.org/project/dropzonejs](https://www.drupal.org/project/dropzonejs)
@@ -28,17 +34,11 @@
 **Length Indicator**: With the help of the module Length Indicator, you can add a colored length indicator to form fields. You can choose an area of optimal length and a tolerance, which will be added and subtracted to/from the optimal boundaries. In Thunder, we implemented the Length Indicator for the SEO text field.<br />
 [https://www.drupal.org/project/length_indicator](https://www.drupal.org/project/length_indicator)
 
-**Libraries API**: This module introduces a common repository for libraries so the same library can be shared by more than one module and more than one site. It also eases the process of upgrading a module that requires an external library and prevents incompatibilities.<br />
-[https://www.drupal.org/project/libraries](https://www.drupal.org/project/libraries)
-
 **Linkit – Enriched linking experience**: Linkit provides an easy interface for internal and external linking with wysiwyg editors by using an autocomplete field. Linkit has by default support for nodes, users, taxonomy terms, files, comments and basic support for all types of entities that defines a canonical link template.<br />
 [https://www.drupal.org/project/linkit](https://www.drupal.org/project/linkit)
 
 **Metatag**: The Metatag module allows you to automatically provide structured metadata, aka "meta tags", about a website. In the context of search engine optimization, the meta description tag and the meta keywords tag may help improve the rankings and display of a site in search engine results. In addition, the module provides support for meta tags (Open Graph Protocol from Facebook, Twitter Cards from Twitter) that allow control of how content appears when shared on social networks.<br />
 [https://www.drupal.org/project/metatag](https://www.drupal.org/project/metatag)
-
-**Media entity image**: Local image integration for Media entity module.<br />
-[https://www.drupal.org/project/media_entity_image](https://www.drupal.org/project/media_entity_image)
 
 **Media entity slideshow**: Slideshows integration for Media entity module. In Thunder, this is used to create galleries.<br />
 [https://www.drupal.org/project/media_entity_slideshow](https://www.drupal.org/project/media_entity_slideshow)
