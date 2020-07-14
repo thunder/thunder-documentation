@@ -1,6 +1,6 @@
 First we should make sure that the latest drush version is installed.
 ```
-composer require drush/drush:~9.7.0 --no-update
+composer require drush/drush:~10.0 --no-update
 ```
 
 After that the following steps should be done for the update:
