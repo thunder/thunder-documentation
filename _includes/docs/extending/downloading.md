@@ -1,7 +1,7 @@
 Depending on whether you have a composer, command-line, drush-make or UI based workflow, the method of downloading themes and modules differs.
 
 ### Composer
-Composer is a package manager for PHP and is the future standard for managing the dependencies of your Drupal 8 site and extensions. Go to the [Drupal documentation](https://www.drupal.org/docs/develop/using-composer/using-composer-with-drupal) for more information.
+Composer is a package manager for PHP and is the future standard for managing the dependencies of your Drupal site and extensions. Go to the [Drupal documentation](https://www.drupal.org/docs/develop/using-composer/using-composer-with-drupal) for more information.
 
 If you have composer installed, go to the root of your site (there should be a `composer.json` file) and install modules by typing
 ```terminal
@@ -46,6 +46,6 @@ You can also download modules and themes via the UI, but we _strongly_ advise ag
 If you are still insisting, here is how to do that:
 
 First you have to enable the `Update Manager` module by going to the `Extend` page, selecting the checkbox near it and clicking on `Install` at the bottom of the page. Then go to
-[https://example.org/admin/modules/install]().  
+[https://example.org/admin/modules/install]().
 Here you can either paste a URL to an archival file on drupal.org, or browse your computer to select one.
 After clicking on install, the module will be downloaded and installed.

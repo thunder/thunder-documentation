@@ -1,4 +1,4 @@
-Thunder is a Drupal 8 distribution for professional publishers. It consists of the current Drupal 8 functionality, lots of handpicked publisher-centric modules with custom enhancements, and an environment which makes it easy to install, deploy and add new functionality.
+Thunder is a Drupal distribution for professional publishers. It consists of the current Drupal functionality, lots of handpicked publisher-centric modules with custom enhancements, and an environment which makes it easy to install, deploy and add new functionality.
 
 In 2016, the German publisher [Hubert Burda Media](http://www.hubert-burda-media.com/) established the Thunder Coalition, which aims at joining forces amongst publishers by sharing code and innovation power.
 
