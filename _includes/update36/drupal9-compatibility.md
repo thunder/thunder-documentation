@@ -13,3 +13,5 @@ Add the following line to your phpunit.xml file and run your tests.
 ```
     <env name="SYMFONY_DEPRECATIONS_HELPER" value="strict"/>
 ```
+
+If your test suite is based on Behat, [https://github.com/caciobanu/behat-deprecation-extension](https://github.com/caciobanu/behat-deprecation-extension) might be interesting to find deprecated code.
