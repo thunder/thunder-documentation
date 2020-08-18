@@ -1,10 +1,10 @@
 **Google AdSense integration**: This module provides web content providers with the means to earn revenue from visitors by displaying ads from Google AdSense advertising service on their sites.<br />
 [https://www.drupal.org/project/adsense](https://www.drupal.org/project/adsense)
 
-**Accelerated Mobile Pages (AMP)**: The AMP module is designed to convert Drupal pages into pages that comply with the AMP standard.<br />
+**Accelerated Mobile Pages (AMP)**: The AMP module is designed to convert Drupal pages into pages that comply with the AMP standard. (not available for Thunder 6, yet)<br />
 [https://www.drupal.org/project/amp](https://www.drupal.org/project/amp)
 
-**Facebook Instant Articles**: The Facebook Instant Articles modules allow administrators to add content from a Drupal site to Facebook, to be viewed on mobile devices as Instant Articles.<br />
+**Facebook Instant Articles**: The Facebook Instant Articles modules allow administrators to add content from a Drupal site to Facebook, to be viewed on mobile devices as Instant Articles. (not available for Thunder 6, yet)<br />
 [https://www.drupal.org/project/fb_instant_articles](https://www.drupal.org/project/fb_instant_articles)
 
 **Google Analytics**: Adds the Google Analytics web statistics tracking system to your website.<br />
