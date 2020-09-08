@@ -1,3 +1,6 @@
+**Search API** This module provides a framework for easily creating searches on any entity known to Drupal, using any kind of search engine.<br />
+[https://www.drupal.org/project/search_api](https://www.drupal.org/project/search_api)
+
 **Google AdSense integration**: This module provides web content providers with the means to earn revenue from visitors by displaying ads from Google AdSense advertising service on their sites.<br />
 [https://www.drupal.org/project/adsense](https://www.drupal.org/project/adsense)
 
