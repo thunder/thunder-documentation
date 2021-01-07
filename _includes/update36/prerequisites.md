@@ -8,7 +8,7 @@ are fully updated to the most current versions. Run the following command in you
 ```
 drush ev "print drupal_get_installed_schema_version('thunder') . PHP_EOL;"
 ```
-This should print the number 8308 or greater. If that is not the case, update your project.
+This should print the number 8309 or greater. If that is not the case, update your project.
 
 ```
 cd ..
